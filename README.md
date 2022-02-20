@@ -1,5 +1,13 @@
-# run-buddy
+# Run Buddy
 
-RUN BUDDY is a tool to help keep you motivated and ultimately reach your goals. You'll find tabs that take you to sections on 
-the main page.
+## Purpose
+A website that offers fitness training services.
 
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
