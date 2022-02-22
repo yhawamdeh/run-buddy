@@ -9,22 +9,6 @@
       /* this will be applied on any screen smaller than 980px */
       color: tomato;
     }
-  }
-  
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
-    header h1 {
-      /* this will be applied on any screen between 768px and 575px */
-      font-size: 80px;
-    }
-  }
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-    header h1 {
-      /* this will be applied on any screen smaller than 575px */
-      font-size: 100px;
-    }
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
