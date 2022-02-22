@@ -3,6 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header h1 a {
+      /* this will be applied on any screen smaller than 980px */
+      color: tomato;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      /* this will be applied on any screen between 768px and 575px */
+      font-size: 80px;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    header h1 {
+      /* this will be applied on any screen smaller than 575px */
+      font-size: 100px;
+    }
+}
 body {
     font-family: Helvetica, Arial, sans-serif;
     /* I'm a CSS comment! */
@@ -40,7 +63,7 @@ header nav ul {
     list-style: none;
 }
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -70,6 +93,7 @@ section {
 }
 /* Hero Style Start */
 .hero {
+    align-items: flex-start;
     background-image: url("../images/hero.jpg");
     display: flex;
     background-size: cover;
@@ -83,7 +107,7 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 .hero-cta h2 {
     font-style: italic;
@@ -137,7 +161,7 @@ section {
     background: #fce138;
 }
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
