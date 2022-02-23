@@ -309,22 +309,14 @@ margin-top: 5px;
 }
 .contact-form button {
     width: 100%;
-
-border: none;
-
-background: #fce138;
-
-color: #024e76;
-
-text-align: center;
-
-padding: 15px 0;
-
-font-size: 16px;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
-.contact-form input, .contact-form textarea, .contact-form button {
-    border-radius: 10px;
-}
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
